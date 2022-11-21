@@ -1,229 +1,430 @@
-<!DOCTYPE HTML>
-<!--
-	Prologue by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-	<title>Darren Delimond - Web Dev</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<meta name="google-site-verification" content="F8TbOUqhNQ1L2EFgTdTsydRs_QQf2Dgx7QJPJkEvcMA" />
-	<link rel="stylesheet" href="assets/css/main.css" />
-	<script src="https://kit.fontawesome.com/3d26510c42.js" crossorigin="anonymous"></script>
-	<script src="https://kit.fontawesome.com/3d26510c42.js" crossorigin="anonymous"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3d26510c42.js" crossorigin="anonymous"></script>
+
+  <title>My Portfolio</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/animated.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+
+
 </head>
 
-<body class="is-preload">
+<body>
 
-	<!-- Header -->
-	<div id="header">
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
 
-		<div class="top">
+  <!-- ***** Header Area Start ***** -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <h4>Darren Delimond <img src="assets/images/logo-icon.png" alt=""></h4>
+            </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li class="scroll-to-section"><a href="#top" class="active">Home</a></li>
+              <li class="scroll-to-section"><a href="#about">About Me</a></li>
+              <li class="scroll-to-section"><a href="#services">Services</a></li>
+              <li class="scroll-to-section"><a href="#skills">Skills</a></li>
+              <li class="scroll-to-section"><a href="#projects">Projects</a></li>
+              <li class="scroll-to-section"><a href="#contact">Contact Me</a></li>
+              <li class="scroll-to-section">
+                <div class="main-blue-button"><a href="#contact">Hire Me</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
 
-			<!-- Logo -->
-			<div id="logo">
-				<span class="image avatar48"><img src="images/Me.png" alt="" /></span>
-				<h1 id="title">Darren Delimond</h1>
-				<p>Software Engineer</p>
-			</div>
+  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="row">
+            <div class="col-lg-6 align-self-center">
+              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                <div class="row">
+                  <div class="col-lg-12">
+                    <h2>Welcome, Glad You Were Able To Stop By!</h2>
+                  </div>
+                  <div class="col-lg-12">
+                    <div class="main-green-button scroll-to-section">
+                      <a href="#contact">Say Hello!</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                <img src="assets/images/brain.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-			<!-- Nav -->
-			<nav id="nav">
-				<ul>
-					<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-					<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a>
-					</li>
-					<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-					<li><a href="#contact" id="contact-link"><span class="icon solid fa-envelope">Contact</span></a>
-					</li>
-				</ul>
-			</nav>
+  <div id="services" class="features section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="features-content">
+            <div class="row">
+              <div class="col-lg-3">
+                <div class="features-item first-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0s">
+                  <div class="first-number number">
+                    <h6>01</h6>
+                  </div>
+                  <div class="icon i1"></div>
+                  <h4>Web Development</h4>
+                  <div class="line-dec"></div>
+                  <p>From developing a single static page to complex fullstack web applications, I focus on
+                    the methodologies, techniques, and tools needed to make responsive and accessible products.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="features-item second-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.2s">
+                  <div class="second-number number">
+                    <h6>02</h6>
+                  </div>
+                  <div class="icon i2"></div>
+                  <h4>Develop a Business Strategy</h4>
+                  <div class="line-dec"></div>
+                  <p>Your business's goals are top of mind, when I build web applications using strategic web
+                    development like SEO to target your ideal clients and increase your online presence.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="features-item third-feature wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.4s">
+                  <div class="third-number number">
+                    <h6>03</h6>
+                  </div>
+                  <div class="icon "></div>
+                  <h4>UX/UI Design</h4>
+                  <div class="line-dec"></div>
+                  <p>Create applications that are user friendly and intuitive taking a customizable approach to all
+                    design decisions so that your web page offers a pleasant and unique experience for your target
+                    audience.</p>
+                </div>
+              </div>
+              <div class="col-lg-3">
+                <div class="features-item fourth-feature last-features-item wow fadeInUp" data-wow-duration="1s"
+                  data-wow-delay="0.6s">
+                  <div class="fourth-number number">
+                    <h6>04</h6>
+                  </div>
+                  <div class="icon "></div>
+                  <h4>Analyze the result</h4>
+                  <div class="line-dec"></div>
+                  <p>Interperate metrics an Implement changes that will increase traffice to your brands landing page
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div id="skills" class="skills-content">
+            <div class="row skill-icons">
+              <div class="skill-lang">
+                <img src="./assets/images/html.png" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/css.png" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/js.png" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/node.svg" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/mongo.svg" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/react.png" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/sql.svg" alt="">
+              </div>
+              <div class="skill-lang">
+                <img src="./assets/images/net.png" alt="">
+              </div>
+              <div class="skill-lang ejs-img">
+                <img src="./assets/images/ejs.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-		</div>
+  <div id="about" class="about-us section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="left-image wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+            <img src="assets/images/me.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="section-heading">
+            <h6>About Me</h6>
+            <h2>Need A <em></em> Fullstack Web Developer?<span> I'm right here! I'm your business' next
+                soultion, reach out to me below!</span></h2>
+          </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-4">
+              <div class="about-item">
+                <h4>20+</h4>
+                <h6> Freelance projects finished</h6>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-4">
+              <div class="about-item">
+                <h4>90%</h4>
+                <h6>client satifaction rate</h6>
+              </div>
+            </div>
+          </div>
+          <h5>I have always been
+            curious,from a young age I had a fixation on breaking and dismantleling technology,
+            Fast forward to today, I still manage to continue being inquisitive of the HOW and WHY. This curiosity is
+            catalist what propels me to think outside the box or starting a new project. I develope
+            applications becasue of my love for continious learning, challenges, and wonder for technology and its
+            ability to change the world. Not much has change all these years, but at least
+            now im doing more building than breaking.
+          </h5>
+          <p> The times you do manage to see me without a computer, Im probably enjoying nature, spending time with
+            my family, or putting together a puzzel.</p>
+          <div class="main-green-button">
+            <a href="#">Discover company</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="projects" class="our-portfolio section">
+    <div class="container">
+      <div class="row project-item-container">
 
-		<div class="bottom">
+        <section class="project-item">
+          <a class="project gf" href="https://guided-fashion.onrender.com"></a>
+          <div class="hover-el">
+            <h4>Guided Fashion</h4>
+            <section class="technology">
+              <div>
+                <img class="html-img" src="./assets/images/html.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/css.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/js.png" alt="">
+              </div>
+            </section>
+          </div>
+        </section>
 
-			<!-- Social Icons -->
-			<ul class="icons">
-				<li><a href="https://twitter.com/DDelimond" class="icon brands fa-twitter"><span
-							class="label">Twitter</span></a></li>
-				<li><a href="https://www.linkedin.com/in/darren-delimond-6b9297114/" class="fa-brands fa-linkedin"><span
-							class="label"></span></a></li>
-				<li><a href="https://github.com/ddelimond" class="icon brands fa-brands fa-github"><span
-							class="label">Github</span></a></li>
-				<!-- <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li> -->
-				<li><a href="mailto:darrendelimond@yahoo.com?subject=Follow%20up%20from%20your%20Portfolio"
-						class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
+        <section class="project-item">
+          <a class="project it" href="https://infintech.netlify.app"></a>
+          <div class="hover-el">
+            <h4>Infintech</h4>
+            <section class="technology">
+              <div>
+                <img class="html-img" src="./assets/images/html.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/css.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/js.png" alt="">
+              </div>
+            </section>
+          </div>
+        </section>
 
-		</div>
+        <section class="project-item">
+          <a class="project rf" href="https://reelflix.onrender.com"></a>
+          <div class="hover-el">
+            <h4>ReelFlix</h4>
+            <section class="technology">
+              <div>
+                <img class="ejs-img" src="./assets/images/ejs.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/css.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/js.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/node.svg" alt="">
+              </div>
+            </section>
+          </div>
+        </section>
+        <section class="project-item">
+          <a class="project jl" href="https://johnson-landscaping-llc.onrender.com"></a>
+          <div class="hover-el">
+            <h4>Johnson Landscaping LLC</h4>
+            <section class="technology">
+              <div>
+                <img class="html-img" src="./assets/images/html.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/css.png" alt="">
+              </div>
+              <div>
+                <img src="./assets/images/js.png" alt="">
+              </div>
+            </section>
+          </div>
+        </section>
+        <div id="contact" class="contact-us section">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12 wow fadeInUp" data-wow-duration="0.5s" data-wow-delay="0.25s">
+                <form id="contact" action="" method="post">
+                  <div class="row">
+                    <div class="col-lg-6 offset-lg-3">
+                      <div class="section-heading">
+                        <h6>Contact Me</h6>
+                        <h2>Fill Out The Form Below To <span>Get</span> In <em>Touch</em> With Me</h2>
+                      </div>
+                    </div>
+                    <div class="col-lg-9">
+                      <div class="row">
+                        <div class="col-lg-6">
+                          <fieldset>
+                            <input type="name" name="name" id="name" placeholder="Name" autocomplete="on" required>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-6">
+                          <fieldset>
+                            <input type="surname" name="surname" id="surname" placeholder="Surname" autocomplete="on"
+                              required>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-6">
+                          <fieldset>
+                            <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*" placeholder="Your Email"
+                              required="">
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-6">
+                          <fieldset>
+                            <input type="subject" name="subject" id="subject" placeholder="Subject" autocomplete="on">
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                          <fieldset>
+                            <textarea name="message" type="text" class="form-control" id="message" placeholder="Message"
+                              required=""></textarea>
+                          </fieldset>
+                        </div>
+                        <div class="col-lg-12">
+                          <fieldset>
+                            <button type="submit" id="form-submit" class="main-button ">Send Message Now</button>
+                          </fieldset>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="contact-info">
+                        <ul>
+                          <li>
+                            <div class="icon">
+                              <img src="assets/images/contact-icon-01.png" alt="email icon">
+                            </div>
+                            <a href="#">darrendelimond@yahoo.com</a>
+                          </li>
+                          <li>
+                            <div class="icon">
+                              <img src="assets/images/contact-icon-02.png" alt="phone">
+                            </div>
+                            <a href="#">1+ 614-596-8667</a>
+                          </li>
+                          <li>
+                            <div class="icon">
+                              <img src="assets/images/contact-icon-03.png" alt="location">
+                            </div>
+                            <a href="#">United States</a>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
-	</div>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <p>Copyright © 2022 Darren Delimond, All Rights Reserved.
 
-	<!-- Main -->
-	<div id="main">
+                  <br>Web Designed by <a rel="nofollow" href="https://templatemo.com"
+                    title="free CSS templates">TemplateMo</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </footer>
 
-		<!-- Intro -->
-
-		<section id="top" class="one dark cover">
-			<div class="puzzle" class="container">
-
-				<header>
-					<h2 class="alt">Hi, welcome! I'm <strong>Darren</strong>, a curious and creative Software
-						Engineer.<br />
-					</h2>
-					<p>Are you looking for a local developer to help solve a problem with your business using
-						code?<br />
-						Look no further! I'm interested in helping you find a solution to improve your organization
-						<br />
-						Please take a look around, and interact with some of my past solutions for others. Enjoy!
-					</p>
-				</header>
-
-				<footer>
-					<a href="#portfolio" class="button scrolly">Take a Look</a>
-				</footer>
-
-			</div>
-		</section>
-
-
-		<!-- Portfolio -->
-		<section id="portfolio" class="two">
-			<div class="container">
-
-				<header>
-					<h2>My Work</h2>
-				</header>
-
-				<p class="pwidth">Below you will find some of my lastest passion projects that I have done for previous
-					clients and
-					pleasure. Feel free to interact with them, their a ton of fun!</p>
-
-				<div class="row">
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="https://infintech.netlify.app/" class="image fit"><img src="images/InfinTech.png"
-									alt="" /></a>
-							<header>
-								<h3>InfinTech</h3>
-							</header>
-						</article>
-					</div>
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="https://savetheyard.netlify.app" class="image fit"><img
-									src="images/SaveTheYard.png" alt="Lawn Cleaning Business Mobile Site" /></a>
-							<header>
-								<h3>SaveTheYard LLC.</h3>
-							</header>
-						</article>
-					</div>
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="https://guided-fashion.onrender.com" class="image fit"><img
-									src="images/Guided Fashion Screenshot.png" alt="Guided Fashion Apparel Store" /></a>
-							<header>
-								<h3>Guided Fashion Apparel</h3>
-							</header>
-						</article>
-
-						<!-- <article class="item">
-							<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-							<header>
-								<h3>Rest</h3>
-							</header>
-						</article>
-					</div>
-					<div class="col-4 col-12-mobile">
-						<article class="item">
-							<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-							<header>
-								<h3>Magna Nullam</h3>
-							</header>
-						</article> -->
-					</div>
-				</div>
-
-			</div>
-		</section>
-
-		<!-- About Me -->
-		<section id="about" class="three">
-			<div class="container">
-
-				<header>
-					<h2>I'm a Software Engineer based in Columbus, OH</h2>
-				</header>
-
-				<a href="#" id="image"><img src="images/Me.png" alt="Picture of me" /></a>
-
-				<p> At an early age I was always very curious, asking why things worked the
-					way the way they do, as I got older that curiousity never died, it was accompanied by a
-					passion to solve problems with different tools in a innovative and creative way.</p>
-				<p>
-					When I'm not building out the Matrix, I can be found enjoying a nice movie, learning something new
-					related to
-					technology, relaxting with my amazing family enjoying their company, or focusing on my personal
-					development while trying to make a positive impact on my community.</p>
-
-			</div>
-		</section>
-
-		<!-- Contact -->
-		<section id="contact" class="four">
-			<div class="container">
-
-				<header>
-					<h2>Let's connect!</h2>
-				</header>
-
-				<p>I am currently accepting new freelance clients, interesting project opportunities, or the ability to
-					meet with other developers and discuss our journey and passion for talking to robots </p><br />
-
-				<p id="newP">Email me at: <span class="email">darrendelimond@yahoo.com</span></p>
-				<p>Or send me a quick message here:</p>
-
-				<form method="post" netlify action="#">
-					<div class="row">
-						<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-						<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-						<div class="col-12">
-							<textarea name="message" placeholder="Message"></textarea>
-						</div>
-						<div class="col-12">
-							<input type="submit" value="Send Message" />
-						</div>
-					</div>
-				</form>
-
-			</div>
-		</section>
-
-	</div>
-
-	<!-- Footer -->
-	<div id="footer">
-
-		<!-- Copyright -->
-		<ul class="copyright">
-			<li>&copy; Darren Delimond</li>
-			<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-		</ul>
-
-	</div>
-
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.scrolly.min.js"></script>
-	<script src="assets/js/jquery.scrollex.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+        <!-- Scripts -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/animation.js"></script>
+        <script src="assets/js/imagesloaded.js"></script>
+        <script src="assets/js/custom.js"></script>
 
 </body>
 
